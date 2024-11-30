@@ -1,0 +1,31 @@
+/* Part 2: External CSS */
+body {
+    background-color: #f0f0f0; /* Set the background color of the webpage */
+}
+
+a:hover {
+    color: red; /* Change color on hover for links */
+}
+
+/* Part 3: Basic styling properties */
+.card {
+    background-color: #ffffff; /* Light background color */
+    border: 1px solid #ccc; /* Subtle border */
+    padding: 20px; /* Padding inside the card */
+    margin: 15px; /* Margin around the card */
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1); /* Optional: a slight shadow */
+}
+
+.card h3 {
+    font-family: 'Arial', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center; /* Center-align the card title */
+}
+
+.card p {
+    font-family: 'Verdana', sans-serif;
+    font-size: 16px;
+    color: #333;
+    line-height: 1.5;
+}

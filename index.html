@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Basics</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Internal CSS */
+        h1 {
+            font-size: 36px;
+        }
+        
+        .highlight {
+            background-color: lightblue;
+        }
+
+        #uniqueElement {
+            border: 2px solid green;
+        }
+    </style>
+</head>
+<body>
+    <!-- Part 1: Elements styled using different CSS selectors -->
+    <h1>Welcome to My Web Page</h1>
+    <p>This is a paragraph demonstrating the use of CSS selectors.</p>
+    <div class="highlight">This section has a background color applied through a class selector.</div>
+    <div id="uniqueElement">This div has a border applied using an ID selector.</div>
+
+    <!-- Part 2: Inline CSS example -->
+    <p style="color: blue;">This paragraph has inline CSS styling for text color.</p>
+
+    <!-- Part 3: Internal CSS demonstration -->
+    <h2>Card Component</h2>
+    <div class="card">
+        <h3>Card Title</h3>
+        <p>This is a description inside a card component.</p>
+    </div>
+</body>
+</html>
